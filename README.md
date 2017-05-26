@@ -14,7 +14,13 @@ Heavily inspired by [Kraymer/F-dotfiles](https://github.com/Kraymer/F-dotfiles).
 - leading `@` for environment packages and subpackages
 - leading `_` for non packages, that must not be *stowed*
 
-## Secret files
+## Instructions
+
+1. Stow the platform specific @* package to setup the base environment (including stow)
+2. Stow all other packages
+3. (optional) Pull and stow secret files from other repo
+
+**Secret files**
 
 Files containing confidential information are stored in a different (non-public) Git repository and are included using a Git submodule that has to be initialized and updated before it can be used.
 
