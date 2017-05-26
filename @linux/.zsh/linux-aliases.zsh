@@ -1,1 +1,1 @@
-alias open='exo-open'
+alias open='xdg-open'
