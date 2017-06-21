@@ -4,6 +4,7 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
 alias g="git"
+alias o="open"
 
 alias serv="python3 -m http.server"
 
