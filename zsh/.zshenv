@@ -4,7 +4,7 @@
 export EDITOR=vim
 export PAGER=less
 
-export PATH=$PATH:~/bin:/usr/local/bin
+export PATH=$PATH:~/bin:/usr/local/bin:/usr/local/sbin
 
 # load zsh config files
 
