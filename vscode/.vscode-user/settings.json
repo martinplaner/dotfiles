@@ -1,11 +1,13 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
+    "editor.fontFamily": "'Fira Code', 'Consolas', 'Inconsolata', 'Menlo', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
     "editor.fontSize": 14,
     "editor.fontLigatures": true,
     "go.lintTool": "gometalinter",
-    // gometalinter already does vet
-    "go.vetOnSave": false,
     "window.zoomLevel": 1,
-    "workbench.iconTheme": "vscode-icons"
+    "workbench.iconTheme": "vscode-icons",
+    "go.useLanguageServer": true,
+    "go.useCodeSnippetsOnFunctionSuggest": true,
+    "go.autocompleteUnimportedPackages": true,
+    "vsicons.dontShowNewVersionMessage": true
 }
