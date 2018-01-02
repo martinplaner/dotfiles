@@ -6,7 +6,7 @@
     "go.lintTool": "gometalinter",
     "window.zoomLevel": 1,
     "workbench.iconTheme": "vscode-icons",
-    "go.useLanguageServer": true,
+    "go.useLanguageServer": false,
     "go.useCodeSnippetsOnFunctionSuggest": true,
     "go.autocompleteUnimportedPackages": true,
     "vsicons.dontShowNewVersionMessage": true
