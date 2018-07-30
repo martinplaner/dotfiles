@@ -22,3 +22,17 @@ alias map="xargs -n1"
 # Editor aliases
 alias v='vim'
 alias c='code'
+
+function mp4convert() {
+    filename=$(basename -- "$1")
+    filename="${filename%.*}"
+
+    ffmpeg -i "$1" -c:v copy -c:a aac -ab 160k -ac 2 "$filename.mp4"
+}
+
+function mp4remux() {
+    filename=$(basename -- "$1")
+    filename="${filename%.*}"
+
+    ffmpeg -i "$1" -c:v copy -c:a copy "$filename.mp4"
+}
